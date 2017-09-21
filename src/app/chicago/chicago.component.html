@@ -1,0 +1,10 @@
+
+<h1> Chicago, Il </h1>
+<ul>
+  <li>Humidity: {{ weather.main.humidity }}</li>
+  <li>Temperature(Average): {{ (weather.main.temp_min + weather.main.temp_max)/2}}</li>
+  <li>Temperature(High): {{ weather.main.temp_max }}</li>
+  <li>Temperature(Low): {{ weather.main.temp_min }}</li>
+  <li>Status: {{weather.weather[0].description}}</li>
+</ul>
+<img src="https://images1.apartments.com/i2/dVyplwWzkt-yGWCm4-Lt3-Gm9ugypQizN-57hpTyG7o/110/chicago-il-cloud-gate-at-dusk.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" width="400">
